@@ -12,7 +12,7 @@ android:
   - extra-google-m2repository
   - extra-android-m2repository
   - addon-google_apis-google-23
-  - sys-img-armeabi-v7a-android-23
+  - sys-img-armeabi-v7a-google-apis-23
 before_install:
 - yes | sdkmanager "platforms;android-27"
 script: ./gradlew :app:build
