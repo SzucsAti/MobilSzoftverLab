@@ -1,7 +1,7 @@
 language: android
 android:
   components:
-  - build-tools-26.0.2
+  - build-tools-27.0.3
   - android-27
   - android-21
   - add-on
@@ -13,10 +13,6 @@ android:
   - extra-android-m2repository
   - addon-google_apis-google-19
   - sys-img-armeabi-v7a-android-21
-  licenses:
-    - 'android-sdk-preview-license-52d11cd2'
-    - 'android-sdk-license-.+'
-    - 'google-gdk-license-.+'
 before_install:
 - yes | sdkmanager "platforms;android-27"
 script: ./gradlew :app:build
